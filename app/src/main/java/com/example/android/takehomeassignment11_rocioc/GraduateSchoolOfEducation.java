@@ -1,10 +1,12 @@
 package com.example.android.takehomeassignment11_rocioc;
 
+import java.io.Serializable;
+
 /**
  * Created by ccteuser on 4/17/17.
  */
 
-public class GraduateSchoolOfEducation {
+public class GraduateSchoolOfEducation implements Serializable {
 
     public String name;
     public int totalEnrollment;
